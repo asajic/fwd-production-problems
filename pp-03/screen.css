@@ -54,5 +54,8 @@ main{
 }
 
 @media screen and (min-width: 800px) {
-
+main {
+  flex-direction: row-reverse;
+  justify-content: center;
+}
 }
