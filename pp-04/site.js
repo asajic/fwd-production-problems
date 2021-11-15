@@ -9,8 +9,12 @@ const x = 5;
 /* function double(num) { */
   (function() {
   double = function(num) {
+  if (num.isInteger){
   let x = num * 2;
   return x;
+}
+else
+  return 'Not an integer.'
 }
 })();
 
